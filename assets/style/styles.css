@@ -1,6 +1,6 @@
 @font-face {
     font-family: "font-1";
-    src: url(./adds/Rajdhani-Regular.ttf)
+    src: url(../../adds/Rajdhani-Regular.ttf)
 }
 
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(./img/bg.jpg) center/cover;
+    background: url(../img/bg.jpg) center/cover;
     height: 100vh;
     overflow: hidden;
 }
@@ -41,7 +41,6 @@ li {
     margin: 10px;
     background: whitesmoke;
 }
-
 
 a {
     font-size: 2rem;
