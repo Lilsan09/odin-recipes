@@ -29,7 +29,7 @@ body {
     margin: 10px auto;
     background: whitesmoke;
     width: 80%;
-    height: 150px;
+    height: auto;
     text-align: left;
     padding: 1px 10px;
     border-radius: 20px;
