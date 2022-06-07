@@ -1,0 +1,46 @@
+img {
+    object-fit: contain;
+    width: auto;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
+body {
+    background: url(../img/bg.jpg) no-repeat fixed center/cover;
+}
+.titre{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 245, 207);
+    text-shadow: 3px 2px 2px black;
+}
+
+.h234 {
+    margin: 50px auto 10px 200px;
+    color: rgb(255, 245, 207);
+    text-align: left;
+}
+
+.paragraphe {
+    margin: 10px auto;
+    background: whitesmoke;
+    width: 80%;
+    height: 150px;
+    text-align: left;
+    padding: 1px 10px;
+    border-radius: 20px;
+    box-shadow: 4px 7px 9px 6px;
+    opacity: 90%;
+}
+
+.liste{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background: whitesmoke;
+    box-shadow: 4px 7px 9px 6px;
+    border-radius: 20px;
+    opacity: 90%;
+}
