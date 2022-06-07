@@ -27,10 +27,28 @@ grattin.addEventListener('mouseenter', e =>{
     grattin.innerHTML = ""
 let button = document.createElement('a')
 button.href = "../odin-recipes/recettes/grattincourgette.html"
-button.innerHTML = "20 min"
+button.innerHTML = "30 min"
 grattin.appendChild(button)
 })
 
 grattin.addEventListener('mouseleave', e =>{
     grattin.innerHTML = grattin_de_base
+})
+
+//////// Boutton de salade césar ////////
+
+const salade = document.getElementById('salade')
+
+const saladecesar_de_base = salade.innerHTML
+
+salade.addEventListener('mouseenter', e =>{
+    salade.innerHTML = ""
+let button = document.createElement('a')
+button.href = "../odin-recipes/recettes/saladecesar.html"
+button.innerHTML = "20 min"
+salade.appendChild(button)
+})
+
+salade.addEventListener('mouseleave', e =>{
+    salade.innerHTML = saladecesar_de_base
 })
