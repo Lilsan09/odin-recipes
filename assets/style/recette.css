@@ -7,9 +7,10 @@ img {
 }
 
 body {
+    margin-bottom: 50px;
     background: url(../img/bg.jpg) no-repeat fixed center/cover;
 }
-.titre{
+.titre {
     font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
@@ -21,6 +22,7 @@ body {
     margin: 50px auto 10px 200px;
     color: rgb(255, 245, 207);
     text-align: left;
+    text-shadow: 3px 2px 2px black;
 }
 
 .paragraphe {
@@ -35,7 +37,7 @@ body {
     opacity: 90%;
 }
 
-.liste{
+.liste {
     width: 80%;
     margin: 10px auto;
     padding: 10px;
